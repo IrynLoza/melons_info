@@ -14,7 +14,7 @@ def print_melon(name, seedless, price):
     #print(f'{name}s {have_or_have_not} seeds and are ${price:.2f}')
     #melons = defaultdict(lambda: None)
     melons = { 
-        melon_names[i]: {
+        melon_names[i].upper(): {
         "seedless": have_or_have_not,
         'price': melon_prices[i],
         'flesh_color': None,
